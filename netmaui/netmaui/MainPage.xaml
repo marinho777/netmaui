@@ -12,7 +12,6 @@
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
-
             <Label
                 Text="Hello, World!"
                 Style="{StaticResource Headline}"

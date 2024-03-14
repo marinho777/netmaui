@@ -7,9 +7,17 @@
     Shell.FlyoutBehavior="Disabled"
     Title="netmaui">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+
+        <ShellContent
+            Title="About Page"
+            ContentTemplate="{DataTemplate local:AboutPage}"
+            Route="AboutPage"
+            />
+    </TabBar>
 
 </Shell>
