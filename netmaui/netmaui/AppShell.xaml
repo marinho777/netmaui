@@ -18,6 +18,11 @@
             ContentTemplate="{DataTemplate local:AboutPage}"
             Route="AboutPage"
             />
+        <ShellContent
+            Title="NOTESPAGE"
+            ContentTemplate="{DataTemplate local:NotesPage}"
+            Route="NotesPage"
+            />
     </TabBar>
 
 </Shell>

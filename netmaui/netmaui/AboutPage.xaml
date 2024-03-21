@@ -12,12 +12,10 @@
             <Label FontSize="22" FontAttributes="Bold" Text="Notes" 
                    VerticalOptions="End"/>
             <Label FontSize="22" Text="v1.0" VerticalOptions="End" />
-
-            <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-        
+            <Button 
+            Text="Learn More"
+            Clicked="LearnMore_Clicked"
+                />
         </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
