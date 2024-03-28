@@ -6,17 +6,32 @@
     <VerticalStackLayout>
         <Editor 
             x:Name="EditorNotes"
-            HorizontalOptions="Center"
-            VerticalOptions="CenterAndExpand"
-            Placeholder="Digite o SITE PORRA"
+            HorizontalOptions="FillAndExpand"
+            Placeholder="Text..."
             />
         <Button 
             Clicked="Button_Clicked_Save"
+            HorizontalOptions="Center"
             Text="Save"
             />
         <Button 
             Clicked="Button_Clicked_Delete"
+            HorizontalOptions="Center"
+            BackgroundColor="Red"
             Text="Delete"
+            />
+        <Label 
+            x:Name="TextEditor"
+            Text=""
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="Center"
+            />
+        <Button 
+            x:Name="Get"
+            Text="Get"
+            HorizontalOptions="Center"
+            Clicked="Button_Get_Clicked"
+            VerticalOptions="Center"
             />
     </VerticalStackLayout>
 </ContentPage>
